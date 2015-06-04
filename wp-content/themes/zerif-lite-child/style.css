@@ -1,0 +1,76 @@
+/*
+Theme Name: Zerif Lite Child
+Theme URI: https://marguerite-halley/zerif-lite/
+Description: Zerif Lite Child Theme
+Author: Marguerite Halley
+Author URI: https://marguerite-halley.com
+Template: zerif-lite
+Version: 0.1
+*/
+@import url("../zerif-lite/style.css");
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/* LINKS */
+a, a:link, a:visited {
+	color:#0192B5;
+}
+
+a, a:hover, a:active, a:focus {
+	color:#017e9d;
+}
+
+/* HEADINGS */
+
+h1, h2, {
+	font-family: "Nixie One", Monotype;
+}
+
+h6 {
+	font-weight: 100;
+}
+
+.section-header h2 {
+	text-transform: none;
+	font-family: "Nixie One", Monotype;
+}
+
+.intro-text {
+	font-family: "Nixie One", Monotype;
+}
+
+a:before, .red-border-bottom:before, .widget .widget-title:before, .entry-title:before, #carousel-homepage-latestnews .item .latestnews-box .latestnews-title a:before, #carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+1) .latestnews-title a:before {
+	background: #0192B5;
+}
+
+/* BUTTONS */
+.red-btn, .green-btn, .btn-primary, .btn-primary:visited{
+	background: none;
+	border: 1.5px solid #ffffff;
+}
+
+.red-btn:hover, .green-btn:hover, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	color: #81c6c6 !important;
+	background: #ffffff;
+	border: 1.5px solid;
+	border-color: #ffffff;
+}
+
+.comment-form #submit {
+	background: #81c6c6;
+	border: 1.5px solid;
+	border-color: #81c6c6;
+}
+
+.comment-form #submit:hover{
+	background: #017e9d;
+	border: 1.5px solid;
+	border-color: #017e9d;
+}
+
+.home .site-content {
+	background-color: #0192B5;
+}
+
+.contact-us, .header {
+	background: rgba(0, 0, 0, 0);
+}
